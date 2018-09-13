@@ -2,7 +2,6 @@ html, body {
 	background-color: #407F7F;
 	width: 100%;
 	height: 100%;
-	margin: 0px;
 }
 
 h1 {
@@ -36,20 +35,72 @@ h1 {
 	display: block;
 }
 
+.location {
+	text-align: center;
+	font-size: 3rem;
+}
+
 .iframe-rwd {
 	position: relative;
 	padding-bottom: 65.25%;
 	padding-top:  30px;
 	height: 0;
 	overflow: hidden;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .iframe-rwd iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
+}
+
+.footer{
+	background-color: #092A2A;
+	color: #E3B63B;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+.place {
+	display: inline-block;
+	padding-top: 15px; 
+	text-align: center;
+}
+
+.address {
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.content {
+	list-style: none;
+}
+
+.post {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.line {
+	border-top: 3px solid white;
+	border-style: double;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	width: 50%;
+	margin: auto;
+}
+
+h6 {
+	padding-top: 5px;
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 
